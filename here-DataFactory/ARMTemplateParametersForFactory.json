@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "here-DataFactory"
+		},
+		"ls_AzureSQL_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_onPrem_file_password": {
+			"value": ""
+		},
+		"ls_AzureSQL_properties_typeProperties_server": {
+			"value": "server-for-database.database.windows.net"
+		},
+		"ls_AzureSQL_properties_typeProperties_database": {
+			"value": "MyDatabase"
+		},
+		"ls_AzureSQL_properties_typeProperties_userName": {
+			"value": "server-admin"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://fromdatafactory2this.dfs.core.windows.net/"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_onPrem_file_properties_typeProperties_host": {
+			"value": "C:\\mysourceinComputer"
+		},
+		"ls_onPrem_file_properties_typeProperties_userId": {
+			"value": "exliveex@gmail.com"
+		}
+	}
+}
