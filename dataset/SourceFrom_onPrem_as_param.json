@@ -1,0 +1,31 @@
+{
+	"name": "SourceFrom_onPrem_as_param",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_onPrem_file",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"P_YourFileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": {
+					"value": "@dataset().P_YourFileName",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

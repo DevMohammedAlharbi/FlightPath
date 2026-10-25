@@ -1,0 +1,15 @@
+{
+	"name": "here-DataFactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0025296f-134b-40a6-9709-907816d91610",
+		"tenantId": "5df10934-9aa3-42da-ae46-7ac4aa9b1970"
+	}
+}

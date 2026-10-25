@@ -1,0 +1,18 @@
+{
+	"name": "ls_onPrem_file",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Allows Azure to access my specific folder and its contained files (Local File System Sources)  ",
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\mysourceinComputer",
+			"userId": "exliveex@gmail.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MGUwYjVjZC1kOGYzLTRmYTQtOTM4OC02YTMwYzMzYWIyYTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "MyComputer-SelfHosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
