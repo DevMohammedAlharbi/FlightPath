@@ -104,7 +104,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"method": "POST",
-					"url": "https://prod-19.northcentralus.logic.azure.com:443/workflows/3ae9407a592b41d192a2b2f0833c798f/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=RVad95rxbSZGAwD5A6EMXdsFtdHoT76gnVKUWmMABms",
+					"url": "<YOUR_LOGIC_APP_URL>",
 					"body": {
 						"value": "{\n  \"pipeline_name\": \"@{pipeline().Pipeline}\",\n         \"run_id\": \"@{pipeline().RunId}\",\n         \"status\": \"@{activity('For Trigger Two').Status}\",\n          \"error\": \"@{coalesce(activity('For Trigger Two').error?.message, 'No error')}\"\n}",
 						"type": "Expression"
