@@ -7,8 +7,8 @@
 		"type": "FileServer",
 		"typeProperties": {
 			"host": "C:\\mysourceinComputer",
-			"userId": "exliveex@gmail.com",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MGUwYjVjZC1kOGYzLTRmYTQtOTM4OC02YTMwYzMzYWIyYTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userId": <YOUR_USER>,
+			"encryptedCredential": "cm9zb2Z0LkRhdGFQcm94eS5...hdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "MyComputer-SelfHosted",
